@@ -1,0 +1,87 @@
+/* Styles */
+
+* { margin:0px; padding:0px; }
+
+body {
+	font-family: "Helvetica Neue", Arial, San Serif;
+	color: #88949C;
+	background-color: #263038;
+	font-weight: 300;
+}
+
+h1 { font-size: 42px; line-height: 52px; font-weight: 100; text-align: left; }
+	h1 span { color: #FFF; font-weight: 400; }
+	h1 span.highlight { margin-left: 5px; }
+
+	.highlight { color: #6093AB; }
+
+section { width: 940px; margin: 0 auto; padding: 0 20px; }
+	section header { }
+		section header .logo { margin: 24px 0 0; }
+
+	section .main  {
+		position: absolute;
+		height: 180px;
+		top: 50%;
+		margin-top: -90px; 
+	}
+
+	section footer {
+		color: #57626A;
+		width: 940px;
+		padding: 0 0 24px;
+		position: absolute;
+		bottom: 0;
+		background-color: #263038;
+	}
+		section footer p {
+			font-size: 13px;
+			line-height: 19px;
+			border-top: 1px solid #57626a;
+			padding-top: 8px;
+		}
+		section footer a { color: #88949C; text-decoration: none; transition: all 0.3s ease; }
+		section footer a:hover { color: #6093AB; }
+
+ul { margin: 20px 0 0; }
+ul li { float: left; list-style: none; }
+	ul li a {
+		padding: 12px 20px;
+		border: 1px solid #57626a;
+		color: #57626a;
+		margin: 0 20px 0 0;
+		border-radius: 4px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 12px;
+		display: inline-block;
+		text-align: center;
+		min-width: 100px;
+	}
+	ul li a:hover {
+		color: #88949C;
+		border-color: #88949C;			
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	ul li a.principal { color: #FFF; background-color: #6093AB; border: 1px solid #6093AB; }
+
+
+/* Media Queries */
+@media screen and (max-device-width:640px) {
+	section { width: auto; padding: 0; margin: 0; }
+	section header, section .main, section footer { width: auto; position: relative; padding: 0 20px; }
+	
+	section .main  { height: auto; top: 0; margin-top: 80px;  }
+		h1 { font-size: 100px; line-height: 150px; font-weight: 200; text-align: left; }
+	section footer { margin-top: 80px; width: auto; }
+		section footer p { font-size: 32px; line-height: 48px; }
+
+		ul li { margin: 0 0 20px; float: none; }
+		ul li a { width: 280px; margin: 0; padding: 12px 0;  }
+
+
+
+
+}
