@@ -39,6 +39,7 @@ section { width: 940px; margin: 0 auto; padding: 0 20px; }
 			line-height: 19px;
 			border-top: 1px solid #57626a;
 			padding-top: 8px;
+			font-weight: 400;
 		}
 		section footer a { color: #88949C; text-decoration: none; transition: all 0.3s ease; }
 		section footer a:hover { color: #6093AB; }
@@ -57,6 +58,7 @@ ul li { float: left; list-style: none; }
 		display: inline-block;
 		text-align: center;
 		min-width: 100px;
+		font-weight: 500;
 	}
 	ul li a:hover {
 		color: #88949C;
