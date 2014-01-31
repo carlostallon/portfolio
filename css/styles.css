@@ -81,5 +81,5 @@ ul li { float: left; list-style: none; }
 		section footer p { font-size: 32px; line-height: 48px; }
 
 		ul li { margin: 0 0 20px; float: none; }
-		ul li a { width: 280px; margin: 0; padding: 12	px 0; }
+		ul li a { width: 280px; margin: 0; padding: 24px 0; font-size: 24px; }
 }
