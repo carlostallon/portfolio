@@ -75,11 +75,12 @@ ul li { float: left; list-style: none; }
 	section { width: auto; padding: 0; margin: 0; }
 	section header, section .main, section footer { width: auto; position: relative; padding: 0 20px; }
 	
-	section .main  { height: auto; top: 0; margin-top: 80px;  }
+	section .main  { height: auto; top: 0; margin-top: 160px;  }
 		h1 { font-size: 100px; line-height: 150px; font-weight: 200; text-align: left; }
-	section footer { margin-top: 80px; width: auto; }
-		section footer p { font-size: 32px; line-height: 48px; }
+	section footer { margin-top: 160px; width: auto; }
+		section footer p { font-size: 32px; line-height: 48px; padding: 20px 0; }
 
-		ul li { margin: 0 0 20px; float: none; }
-		ul li a { width: 280px; margin: 0; padding: 24px 0; font-size: 24px; }
+		ul { margin: 40px 0 0; }
+		ul li { margin: 0 0 40px; float: none; }
+		ul li a { width: 100%; margin: 0; padding: 36px 0; font-size: 30px; }
 }
